@@ -1,5 +1,6 @@
 import './App.css';
 import Button from "./Components/Button"
+import List from './Components/List';
 function App() {
   return (
     <div className="App App-header">
@@ -8,6 +9,7 @@ function App() {
       <Button type="" title="C"/>
       <button className="button"> </button>
       <img src={process.env.PUBLIC_URL + '/logo192.png'}/>
+      <List/>
       {/* <img src="logo512.png"></img> */}
     </div>
   );
